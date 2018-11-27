@@ -1,0 +1,471 @@
+html,body,img,p,h1,h2,h3,h4,h5,h6,ul,li,a{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-size:17.075px;
+    /* overflow-x: hidden; */
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+a{
+    text-decoration: none;
+}
+/* ============================================= */
+/* =================开始表演了！================= */
+/* ============================================= */
+
+
+
+
+/* ==头部== */
+header{
+    width: 57.98rem;
+    overflow: hidden;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 17.57rem;
+    height: 3.514rem;
+    margin: 1% 0;
+
+}
+.logo_img{
+    width: 9.956rem;
+    height: 3.473rem;
+}
+.hydl{
+    width:6.443rem;
+    height:2.343rem;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+.dcwj{
+
+    width: 1.055rem;
+    height: 0.82rem;
+    margin: 0.12rem 0.1rem;
+    overflow: hidden;
+}
+.q-link{
+    color: #999;
+    margin-top: 3.5rem;
+    font-size: 0.7rem;
+    width: 8.5rem;
+    height: 1.055rem;
+}
+.q-link:hover{
+    text-decoration: underline;
+    color: #e4393c;
+}
+
+/* ==中间部分== */
+content{
+    width: 100%;
+    overflow: hidden;
+}
+.tips-wrapper{
+    width: 100%;
+    background: #fff8f0;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.tips-inner{
+    display: flex;
+    justify-content:center;
+    -webkit-justify-content: center;
+    width: 90%;
+    padding-left: 5%;
+}
+.icon-tips{
+    width: 0.937rem;
+    height: 0.937rem;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right:0.5%;
+    margin-top: 0.2%;
+}
+.icon_p{
+    display: inline-block;
+    vertical-align: middle;
+    color: #999;
+    font-size: 0.7rem;
+}
+.blank{
+    color: #000;
+    /* display: inline-block; */
+    font-size: 0.8rem;
+}
+.blank:hover{
+    text-decoration: underline;
+}
+
+/* ================banner======== */
+.login-banner{
+    width: 100%;
+    height: 27.818rem;
+    background-color: #e93854;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.lunbo_box{
+    width: 57.98rem;
+    height: 27.819rem;
+    /* background-color: #000; */
+}
+.banner_bg{
+    width: 57.98rem;
+    height: 27.819rem;
+    background: url(../img/bg_img2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+/* ===登录表单==== */
+.login-form{
+    overflow:visible;
+    position: absolute;
+    top:20%;
+    right: 14%;
+    width: 20.364rem;
+    /* height: 25rem; */
+    background-color: #fff;
+    z-index: 9;
+}
+.tips-wrapper_2{
+    /* height: 2rem; */
+    width: 100%;
+    background: #fff8f0;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+.cont-wrapper{
+    width: 90%;
+    display: inline-block;
+}
+.cont-wrapper p{
+    vertical-align: middle;
+    color: #999;
+    display: inline-block;
+    font-size: 0.7rem;
+}
+
+/* ==扫码登录== */
+.sm input{
+    border:none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 3.163rem;
+    font-size: 1.05rem;
+    width: 10.132rem;
+    height: 3.163rem;
+    background-color: #fff;
+    color: #666;
+    float:left;
+    box-sizing:border-box;
+    border-bottom: 0.0586rem solid #f4f4f4;
+    border-right: 0.0586rem #f4f4f4 solid;
+
+}
+.sm input:hover{
+    color: #e93854;
+    font-weight: bold;
+
+}
+
+
+.shaoma{
+    width: 100%;
+    background-color: #fff;
+}
+.big_box{
+    width: 100%;
+    height: 11.714rem;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+
+}
+.img_box{
+    border: #f4f4f4 0.0586rem solid;
+    width: 8.61rem;
+    height: 8.61rem;
+    padding: 0.55rem;
+    position: relative;
+    top: 1.2rem;
+    left: 5rem;
+    /* transition: all .4s; */
+    /* display: none; */
+
+}
+.big_box:hover .img_box{
+    transition: all .35s;
+    position: relative;
+    left:1.2rem;
+    /* animation: lala 1s linear 0s 1 forwards; */
+}
+.big_box:hover .img_box_2{
+    display: block;
+}
+.img_box>img{
+    width: 8.61rem;
+    height: 8.61rem;
+}
+.img_box_2{
+    width: 8.258rem;
+    height: 9.89rem;
+    background: url(../img/phone-orange.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 1.2rem;
+    right: 0rem;
+    display: none;
+}
+.sjjd{
+    width: 100%;
+    font-size: .8rem;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    
+}
+.sjjd a{
+    color: #e4393c;
+}
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+}
+.icon img{
+    width: 1.47rem;
+    height: 1.47rem;
+}
+.icon p{
+    font-size: 0.8rem;
+    color: #666;
+    text-align: center;
+}
+.icon p{
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+}
+.zhuce_box{
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+.zhuce_box img{
+    width: 1.1rem;
+    height: 1.1rem;
+    float: left;
+    margin-left: 0.5rem;
+    margin-right: 0.2rem;
+
+}
+.QQ{
+    float: left;
+    font-size: .7rem;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+.QQ a:hover{
+    color: #E4393C;
+    text-decoration: underline;
+}
+.QQ a{
+    color: #666;
+}
+.weixin{
+    float: left;
+    font-size: .7rem;
+    cursor: pointer;
+    text-align: center;
+}
+.weixin a{
+    color: #666;
+
+}
+.weixin a:hover{
+    color: #E4393C;
+    text-decoration: underline;
+}
+.QQ .weixin:hover{
+    color: #e4393c;
+}
+.zhuce_box span{
+    font-size: .8rem;
+    color: #ccc;
+    float: left;
+    display:block;
+    margin-left: 0.6rem;
+    margin-right: 0.5rem;
+}
+.ljzc{
+    float: right;
+    text-align: center;
+    line-height:1.1rem ;
+    font-size: .93rem;
+}
+.ljzc a{
+    color: #e4393c;
+}
+.ljzc a:hover{
+    text-decoration: underline;
+}
+/* ==账号登录== */
+.zhdl{
+    width: 100%;
+    height: 20rem;
+    /* border-bottom: 0.0586rem solid #f4f4f4; */
+    display:none;
+}
+.zhdl input{
+    position: relative;
+    width: 206px;
+    height: 36px;
+    margin-top: 40px;
+    color: black;
+    font-size: 20px;
+}
+.zhdl .submit{
+    background: #FF3030;
+}
+
+/* ==页脚== */
+footer{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 57.98rem;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: .7rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    color: #666;
+    box-sizing: border-box;
+
+}
+
+.nav_a{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+footer a{
+    color: #666;
+    margin: 0 0.7rem;
+}
+footer a:hover{
+    color: #e4393c;
+    text-decoration: underline;
+}
+footer p{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.yh{
+    position: absolute;
+    left:103px;
+    top: 173px;
+    border: 1px solid #CCCCCC;
+    border-right: none;
+    width: 36px;
+    height: 40px;
+}
+.mm{
+    position: absolute;
+    left:103px;
+    top: 255px;
+    border: 1px solid #CCCCCC;
+    border-right: none;
+    width: 36px;
+    height: 40px;
+}
+
+/* validate样式修改 */
+input.error {
+	border: 1px solid red !important;
+}
+label.error {
+    background:url("../images/unchecked.gif") no-repeat 0px 0px;
+    /* padding-left: 132px; */
+    margin-left: -208px;
+    margin-top: 87px;
+    position: absolute;
+    padding-bottom: 2px;
+    font-weight: bold;
+    color: red;
+}
+span.error {
+    background:url("../images/unchecked.gif") no-repeat 0px 0px;
+    padding-left: 132px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    color: red;
+}
+label.checked {
+    background:url("../images/checked.gif") no-repeat 0px 0px;
+}
+.tooltip {
+      position: absolute;
+      z-index: 10200;
+      display: block;
+      visibility: visible;
+      padding: 5px;
+      font-size: 11px;
+      opacity: 0;
+      filter: alpha(opacity=0);
+    }
+ 
+ .tooltip-inner {
+   max-width: 300px;
+   padding: 0px 8px;
+   color: #ffffff;
+   text-align: center;
+   text-decoration: none;
+   background-color: #000000;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 6px;
+ }
+ form input.error{
+	 color:#F00;
+	 border: 1px solid #CE7979;
+	 background:#FFF7FA;
+     }
+form label.error{
+ 	color:#F00;
+     }
+ 
+ 
+.arrow-left
+{
+  border-bottom: 10px solid #000000;
+  border-left: 10px solid #ffffff;
+}
+
